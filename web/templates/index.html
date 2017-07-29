@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forms  !!!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/vendor/bootstrap/css/bootstrap.min.css') }}" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/flat-ui.min.css') }}" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+</head>
+<body>
+	<div class="main">
+		<div class="container">
+			<br/>
+			<a href="{{ url_for('matrix') }}">Create Matrix</a>
+			<a href="#">Away</a>
+		</div>
+		<div class="main-board">
+			<div class="container">
+				<div class="title col-xs-12">{{ data.status }}</div>
+				<form action="{{ url_for('word_map_submit') }}" method="post">
+					<div class="col-xs-4">
+						<h4>Key</h4>
+						<input type="text" class="form-control" name='key' />
+					</div>
+					<div class="col-xs-4">
+						<h4>Primary</h4>
+						<textarea style="height:130px" class="form-control" name='primary'></textarea>
+					</div>
+					<div class="col-xs-4">
+						<h4>Clippings</h4>
+						<textarea style="height:130px" class="form-control" name='clippings'></textarea>
+					</div>
+
+					<div class="col-xs-3 margin-top-med">
+						<input type="submit" class="btn btn-danger btn-block btn-lg" />
+					</div>		
+				<form>	
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+	<script src="{{ url_for('static', filename='js/vendor/jquery.min.js') }}"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="{{ url_for('static', filename='js/vendor/video.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/flat-ui.min.js') }}"></script>
+
+</body>
+</html>

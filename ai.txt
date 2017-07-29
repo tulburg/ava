@@ -1,0 +1,24 @@
+Behavioural Matrix (stems of actions and appropriate reactions)
+
+There are behavioural matrix that operates on the system it self for example: detection of word repetition, mimic etc. Then there are behavioural matrix that determines how the  system interacts with its environment. It should be understood that the behavioural matrix contains maps of identifiable collections or sections of events that could trigger a particular or series of intents in the system.
+
+
+behavioural matrix phrase crunch: 
+tense (past, presence, future)
+continuity (words & phrases)
+weight (base words)
+
+during crunch, the approach should be upgraded to a case-method-value system where a case is set as the condition to be met and a method determines the approach, either a substitution, an insertion, a deletion or a transposition and the value will be the base value
+
+a good example of a pause/continue intent is when a user is creating an event and asks what's the time
+an interruptable intent for example is user initialization
+
+entity[has]object[has]property[is]set[is]type
+entity[do]action[what]
+- details
+action (what)
+object (has, is, why)
+entity (do, has, is)
+set (has, is)
+type (has)
+* has (property), do (action), is (set), is (type), why, what

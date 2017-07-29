@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matrix Loader</title>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans' />
+	<style>
+		html{background-color:#fcfcfc;}
+		* {padding:0px;margin:0px;font-family:'Open Sans';font-size:14px;color:#333;}
+		.main{display:flex;height:100%;width:100%;}
+		.main-1, .main-2{height:100vh;width:50vw;min-height:400px;margin-top:20%;}
+		.board{margin:0px 20px 10px 20px;padding:15px;background-color:#e5e5e5;border-radius:8px;min-height:300px;}
+		textarea {background-color:#e5e5e5;height:50px;text-overflow: auto;word-break: break-all;word-wrap: wrap;width:45vw;}
+		textarea, button {border-radius:8px;border:0px;padding:10px;margin:0px 20px 10px 20px;font-size:16px;color:#000;}
+		button{cursor:pointer;width:220px;background-color:#ED145B;color:#fff;font-weight:bold;font-size:16px;}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="main-1">
+			<div class="board">
+				<div class="input">{{ data.input.input }}</div>
+				<div class="nounp">{{ data.input.nounp }}</div>
+				<div class="verbp">{{ data.input.verbp }}</div>
+				<div class="postags">{{ data.input.pos_tags }}</div>
+			</div>
+			<form action="{{ url_for('handle_input') }}" method="post">
+				<div>
+					<textarea name="input"></textarea>
+				</div>
+				<button type="submit">Generate</button>
+			</form>
+		</div>
+		<div class="main-2">
+			<div class="board">{{ data.output.processed }}</div>
+			<form action="{{ url_for('handle_submit') }}" method="post">
+				<div>
+					<textarea name="output"></textarea>
+				</div>
+				<button>Submit</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

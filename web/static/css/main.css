@@ -1,0 +1,6 @@
+*{border:0px;margin:0px;padding:0px;}
+body{display:flex;}
+.main{height:100vh;background-color:#f0f0f0;width:100vw;}
+.main-board{height:40%;position:absolute;bottom:0px;left:0px;width:100%;}
+.margin-top-med{margin-top:20px;}
+.title{margin:10px 0px;font-weight:bold;}
