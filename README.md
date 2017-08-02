@@ -4,8 +4,8 @@ The aim is to create a Companion AI. Ava aims to become an every day companion, 
 ### Getting Started
 Ava is part of the idea of making artificial intelligence available for all. Ava is community developed application so we are currently looking for contributors to join the community. Ideas and suggestions are always welcomed from non programmers as well.
 
-- [Read Wiki](http://google.com)
-- [Join Community](http://google.com)
+- [Read Wiki](https://github.com/tulburg/ava/wiki)
+- [Join Community](https://ava-community.slack.com)
 
 ### Dependencies
 - Textacy 0.0.3 
