@@ -1,7 +1,6 @@
 import os, sys, time
 from threading import Timer
 from multiprocessing import Process
-from predict import Predict
 from libs.utils import stemmas, Logger
 from data.db import states
 from libs.states import state_object

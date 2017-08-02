@@ -3,9 +3,8 @@ import os, sys, re
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from data.db import entities, props, states, matrix
+from data.db import entities, props, states, matrix, config
 from normalizer import Normalize
-from interpreter import Interprete
 from parser import Parser
 from libs.utils import util, Logger
 from libs.states import state_object

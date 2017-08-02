@@ -1,5 +1,5 @@
 import ast
-from data.db import states
+from data.db import states, config
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 

@@ -3,8 +3,7 @@ from collections import namedtuple
 from uuid import getnode as get_mac
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from data.db import entities, db_utils
-
+from data.db import entities, db_utils, config
 
 engine = create_engine(config.db_connector+"://"+config.db_username+":"+config.db_password+"@"+config.db_hostname+":"+config.db_port+"/"+config.db_name)
 conn = engine.connect()
