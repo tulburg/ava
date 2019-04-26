@@ -1,7 +1,4 @@
-textacy
-BeautifulSoup
-lxml
-mysql
-sqlalchemy
-mysql-connector-python
-flask
+keras
+numpy
+tensorflow
+pillow

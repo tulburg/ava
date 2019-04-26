@@ -1,8 +1,0 @@
-was not=wasnt,wasn't,was n't,wan'st
-is not=isnt,isn't,is n't,ins't
-there is=theer's,there's
-it is=it's,its',i'ts
-i have=i've,iv'e
-that is=thats,that's
-i am=i'm,im,am
-what is=what's,whats
