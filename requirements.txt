@@ -2,3 +2,5 @@ keras
 numpy
 tensorflow
 pillow
+spacy
+plac
