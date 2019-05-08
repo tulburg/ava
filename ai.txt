@@ -22,3 +22,14 @@ entity (do, has, is)
 set (has, is)
 type (has)
 * has (property), do (action), is (set), is (type), why, what
+
+
+cases:
+ - case for base words: 
+  1.  most [requests] are similar but different by just an adjective or a synonym
+  2.  There are synonymous words / phrases (i.e. dance / boogie down)
+  3.  Idioms / expressions
+ - case against:
+  1.  Some phrases or words may mean one thing but mean another in a different context
+  2.  It is pointless since there's already going to be an algorithm that maps sentences to actions
+      and mapping different sentences to the same action is always permitted

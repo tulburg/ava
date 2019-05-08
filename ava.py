@@ -3,7 +3,9 @@ from lib import Mod_Spacy
 spacy = Mod_Spacy()
 
 def main() :
-  spacy.update_training_data("hello world", [{"world":"(loc)", "hello":"greet"}])
+  spacy.train()
+  # spacy.tokenize("The game is not loading");
+  # spacy.update_model("my car is red in color", [{"my":"(user)", "is":"-"}])
 
 if __name__ == '__main__':
   main() 
